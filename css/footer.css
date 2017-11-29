@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+footer .foot {
+    background: #565960;
+    padding-top: 7px;
+}
+footer .foot .logo {
+    line-height: 88px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 17px;
+}
+footer .foot .foot-nav {
+    padding-bottom: 45px;
+    margin: 0;
+}
+footer .foot .foot-nav > div {
+    float: left;
+}
+footer .foot .foot-nav .contact {
+    padding-right: 0;
+    width: 28.6%;
+}
+footer .foot .foot-nav .contact p {
+    color: #e8e9ea;
+    font-size: 16px;
+    line-height: 33px;
+}
+footer .foot .foot-nav .contact p:nth-last-of-type(1) {
+    margin-bottom: 25px;
+}
+footer .foot .foot-nav .contact > a {
+    width: 33px;
+    display: inline-block;
+    margin-right: 26px;
+}
+footer .foot .foot-nav .contact > a:nth-last-of-type(1) {
+    margin-right: 0;
+}
+footer .foot .foot-nav .contact > a img {
+    width: 100%;
+}
+footer .foot .foot-nav .about {
+    padding-left: 0;
+}
+footer .foot .foot-nav .about ul li {
+    line-height: 34px;
+}
+footer .foot .foot-nav .about ul li a {
+    color: #dddedf;
+}
+footer .foot .foot-nav .about1 {
+    width: 10.75%;
+}
+footer .foot .foot-nav .about2 {
+    width: 13.5%;
+}
+footer .foot .foot-nav .QR-code {
+    width: 18%;
+}
+footer .foot .foot-nav .site {
+    width: 27%;
+}
+footer .foot .foot-nav .site p {
+    color: #e8e9ea;
+    font-size: 16px;
+    line-height: 33px;
+}
+footer .copyright {
+    background: #3a3d43;
+    padding: 10px;
+}
+footer .copyright p {
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 14px;
+}
+@media all and (max-width: 992px) {
+    footer .foot .foot-nav .contact > a {
+        margin-right: 15px;
+    }
+}
+@media all and (max-width: 768px) {
+    footer .foot .logo{
+        text-align: center;
+    }
+    footer .foot .foot-nav {
+        padding-bottom: 10px;
+    }
+    footer .foot .foot-nav > div {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    footer .foot .foot-nav .contact {
+        width: 100%;
+    }
+    footer .foot .foot-nav .contact > a {
+        margin-right: 10px;
+    }
+    footer .foot .foot-nav .contact > a:nth-last-of-type(1) {
+        margin-right: 0;
+    }
+    footer .foot .foot-nav .about1 {
+        width: 22%;
+        margin-left: 27%;
+    }
+    footer .foot .foot-nav .about2 {
+        width: 30%;
+    }
+    footer .foot .foot-nav .QR-code {
+        width: 100%;
+    }
+    footer .foot .foot-nav .site {
+        width: 100%;
+    }
+}

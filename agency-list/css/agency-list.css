@@ -1,0 +1,452 @@
+@charset "utf-8";
+.container {
+  padding: 0;
+}
+@media all and (max-width: 1200px) {
+  .container {
+    padding: 0 15px;
+  }
+  .container .row {
+    padding: 0 15px;
+  }
+}
+.sort {
+  background: #eeeeee;
+}
+.sort .sort-place > p {
+  float: left;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+.sort .sort-place > p a {
+  font-size: 16px;
+  padding: 0 5px;
+  color: #333333;
+}
+.sort .sort-place > p a:hover {
+  color: #068fdf;
+}
+.sort .sort-classify .tradeList,
+.sort .sort-classify .colorList,
+.sort .sort-classify .hotLabel {
+  display: none;
+}
+.sort .sort-classify .apply-classify,
+.sort .sort-classify .tradeList,
+.sort .sort-classify .colorList,
+.sort .sort-classify .hotLabel {
+  background: #ffffff;
+  border-bottom: 1px dashed #ddd;
+}
+.sort .sort-classify .apply-classify h3,
+.sort .sort-classify .tradeList h3,
+.sort .sort-classify .colorList h3,
+.sort .sort-classify .hotLabel h3 {
+  width: 8%;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  padding-left: 1%;
+  font-size: 16px;
+  font-weight: 400;
+  box-sizing: content-box;
+}
+.sort .sort-classify .apply-classify ul,
+.sort .sort-classify .tradeList ul,
+.sort .sort-classify .colorList ul,
+.sort .sort-classify .hotLabel ul {
+  width: 84%;
+  overflow: hidden;
+  height: 50px;
+  float: left;
+  transition: height .5s;
+}
+.sort .sort-classify .apply-classify ul li,
+.sort .sort-classify .tradeList ul li,
+.sort .sort-classify .colorList ul li,
+.sort .sort-classify .hotLabel ul li {
+  float: left;
+  line-height: 50px;
+  padding: 0 10px;
+}
+.sort .sort-classify .apply-classify ul li a:hover,
+.sort .sort-classify .tradeList ul li a:hover,
+.sort .sort-classify .colorList ul li a:hover,
+.sort .sort-classify .hotLabel ul li a:hover {
+  color: #068fdf;
+}
+.sort .sort-classify .apply-classify .navBtn,
+.sort .sort-classify .tradeList .navBtn,
+.sort .sort-classify .colorList .navBtn,
+.sort .sort-classify .hotLabel .navBtn {
+  display: block;
+  float: right;
+  width: 7%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+.sort .sort-classify .apply-classify .navBtn:hover,
+.sort .sort-classify .tradeList .navBtn:hover,
+.sort .sort-classify .colorList .navBtn:hover,
+.sort .sort-classify .hotLabel .navBtn:hover {
+  color: #068fdf;
+}
+.sort .sort-classify .apply-classify .navBtn i,
+.sort .sort-classify .tradeList .navBtn i,
+.sort .sort-classify .colorList .navBtn i,
+.sort .sort-classify .hotLabel .navBtn i {
+  font-size: 18px;
+  margin-left: 2px;
+  position: relative;
+  top: 1px;
+}
+.sort .sort-classify .colorList ul {
+  line-height: 50px;
+}
+.sort .sort-classify .colorList ul li {
+  margin: 14px 10px 0 10px;
+  padding: 0;
+}
+.sort .sort-classify .colorList ul li:nth-of-type(1) a {
+  width: 40px;
+}
+.sort .sort-classify .colorList ul li:nth-of-type(1) a span {
+  display: block;
+  line-height: 20px;
+  text-align: center;
+}
+.sort .sort-classify .colorList ul li a {
+  width: 20px;
+  display: block;
+  height: 20px;
+}
+.sort .sort-classify .searchBox {
+  background: #ffffff;
+  border-bottom: 1px dashed #ddd;
+}
+.sort .sort-classify .searchBox .mainBoxList {
+  float: left;
+  width: 30%;
+}
+.sort .sort-classify .searchBox .mainBoxList > div {
+  float: left;
+  width: 25%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.sort .sort-classify .searchBox .mainBoxList > div a {
+  display: block;
+}
+.sort .sort-classify .searchBox .mainBoxList > div a i {
+  font-size: 10px ;
+  font-weight: bolder;
+  top: 2px;
+}
+.sort .sort-classify .searchBox .mainBoxList > div a:hover {
+  color: #068fdf;
+}
+.sort .sort-classify .searchBox .searchTo {
+  width: 22%;
+  float: left;
+  height: 32px;
+  line-height: 33px;
+  background: #f1f1f1;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin: 4px 0;
+  overflow: hidden;
+  position: relative;
+}
+.sort .sort-classify .searchBox .searchTo .search-text {
+  width: 200px;
+  height: 18px;
+  line-height: 18px;
+  margin: 8px 0 8px 8px;
+  display: block;
+  background: #f1f1f1;
+  border: none;
+}
+.sort .sort-classify .searchBox .searchTo .search-btn {
+  width: 33px;
+  height: 33px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 25px;
+  cursor: pointer;
+  color: #c4c4c4;
+  border: none;
+  background: url("../images/search.png") no-repeat center center;
+  background-size: 70%;
+}
+.sort .sort-classify .searchBox .listNav-hotSearch {
+  float: right;
+  width: 40%;
+  line-height: 40px;
+}
+.sort .sort-classify .searchBox .listNav-hotSearch a {
+  margin: 0 3px;
+}
+.sort .sort-classify .searchBox .listNav-hotSearch a:hover {
+  color: #068fdf;
+}
+.sort .sort-classify .bottomBtn {
+  margin: 0 auto;
+  text-align: center;
+}
+.sort .sort-classify .bottomBtn a {
+  width: 150px;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+  color: #999;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border-right: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+  border-left: 1px dashed #ddd;
+  background: #fff;
+}
+.sort .checked a {
+  color: #068fdf;
+}
+.sort-List {
+  padding-top: 46px;
+}
+.sort-List > ul li {
+  width: 24%;
+  float: left;
+  margin-right: 1.3333%;
+  margin-bottom: 27px;
+  padding: 4px;
+  background: #fff;
+}
+.sort-List > ul li .list {
+  position: relative;
+}
+.sort-List > ul li .list > span {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.sort-List > ul li .list > span img {
+  border: 5px solid #c2c2c2;
+  width: 100%;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+}
+.sort-List > ul li .list h4 {
+  line-height: 48px;
+  font-size: 18px;
+  color: #8d8c8c;
+  position: relative;
+  padding: 5px;
+}
+.sort-List > ul li .list h4::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 30%;
+  bottom: 0;
+  left: 5px;
+  height: 2px;
+  background: #8c8787;
+  z-index: 1111;
+}
+.sort-List > ul li .list h4::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 5px;
+  height: 2px;
+  background: #d0cece;
+}
+.sort-List > ul li .list p {
+  line-height: 46px;
+  font-size: 16px;
+  color: #6d6d6d;
+  padding: 5px;
+}
+.sort-List > ul li .list p img {
+  float: right;
+  width: 23px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.sort-List > ul li .list:hover span img {
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  transform: scale(1.1);
+}
+.sort-List > ul li:nth-of-type(4n) {
+  margin-right: 0;
+}
+.sort-List .paging {
+  margin:0 0 40px;
+}
+i.case-ma {
+  width: 100%;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 15% 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+i.case-ma img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+@media all and (max-width: 991px) {
+  .sort .sort-classify .apply-classify h3,
+  .sort .sort-classify .tradeList h3,
+  .sort .sort-classify .colorList h3,
+  .sort .sort-classify .hotLabel h3 {
+    width: 10%;
+  }
+  .sort .sort-classify .apply-classify ul,
+  .sort .sort-classify .tradeList ul,
+  .sort .sort-classify .colorList ul,
+  .sort .sort-classify .hotLabel ul {
+    width: 82%;
+  }
+  .sort .sort-classify .searchBox .mainBoxList {
+    padding-left: 10%;
+    width: 50%;
+  }
+  .sort .sort-classify .searchBox .searchTo {
+    width: 30%;
+  }
+  .sort .sort-classify .searchBox .listNav-hotSearch {
+    clear: both;
+    float: none;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+  }
+  .sort .sort-classify .searchBox .listNav-hotSearch a {
+    margin: 0 10px;
+  }
+  .sort-List > ul li {
+    width: 47%;
+    margin-right: 6%;
+    margin-bottom: 35px;
+  }
+  .sort-List > ul li:nth-of-type(3) {
+    margin-right: 6% !important;
+  }
+  .sort-List > ul li:nth-of-type(2n) {
+    margin-right: 0;
+  }
+}
+.advert {
+  background: #eeeeee;
+  padding:0 0 31px;
+}
+.advert ul li {
+  float: left;
+  width: 31%;
+  margin-right: 3.5%;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  transition: all 0.3s;
+}
+.advert ul li img {
+  width: 100%;
+}
+.advert ul li:nth-of-type(3) {
+  margin-right: 0;
+}
+.advert ul li:hover {
+  margin-top: -2px;
+  box-shadow: 0 0 10px #000;
+}
+.advert ul li a {
+  color: #333333;
+}
+@media all and (max-width: 767px) {
+
+  .sort .sort-place > p {
+    height: 40px;
+    line-height: 40px;
+  }
+  .sort .sort-place > p a {
+    font-size: 14px;
+  }
+  .sort .sort-classify .apply-classify h3,
+  .sort .sort-classify .tradeList h3,
+  .sort .sort-classify .colorList h3,
+  .sort .sort-classify .hotLabel h3 {
+    width: 15%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+  }
+  .sort .sort-classify .apply-classify ul,
+  .sort .sort-classify .tradeList ul,
+  .sort .sort-classify .colorList ul,
+  .sort .sort-classify .hotLabel ul {
+    width: 70%;
+    height: 40px;
+  }
+  .sort .sort-classify .apply-classify ul li,
+  .sort .sort-classify .colorList ul li,
+  .sort .sort-classify .colorList ul li,
+  .sort .sort-classify .hotLabel ul li {
+    line-height: 40px;
+  }
+  .sort .sort-classify .apply-classify ul li a,
+  .sort .sort-classify .tradeList ul li a,
+  .sort .sort-classify .colorList ul li a,
+  .sort .sort-classify .hotLabel ul li a {
+    line-height: 40px;
+    font-size: 12px;
+  }
+  .sort .sort-classify .apply-classify .navBtn,
+  .sort .sort-classify .tradeList .navBtn {
+    width: 14%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+  }
+  .sort-List {
+    padding-top: 30px;
+  }
+  .sort-List > ul li {
+    margin-bottom: 20px;
+  }
+  .sort-List > ul li .list h4 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .sort-List > ul li .list p {
+    line-height: 36px;
+    font-size: 14px;
+  }
+  .sort-List .paging {
+    margin: 0 ;
+  }
+  .sort-List .paging .pagination {
+    margin-top: 0;
+  }
+  .advert ul li {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+  }
+}
